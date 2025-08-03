@@ -158,7 +158,7 @@ public class MainFrame extends JFrame implements ActionListener{
 			new CreditsFrame();
 		}
 		if(e.getSource() == saveAsTxtMI) {
-			saveTextAsTxt(calc, "rule_"+remember);
+			saveDataAsTxt(calc, "rule_"+remember);
 		}
 		
 	}
@@ -169,7 +169,7 @@ public class MainFrame extends JFrame implements ActionListener{
 		this.delay = delay;
 	}
 
-	public void saveTextAsTxt(Calculations calc, String name) {
+	public void saveDataAsTxt(Calculations calc, String name) {
 		SwingUtilities.invokeLater(() -> {
             JFileChooser chooser = new JFileChooser();
             
