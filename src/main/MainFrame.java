@@ -29,7 +29,7 @@ public class MainFrame extends JFrame implements ActionListener{
     Color fColor = Color.white;
     JMenuBar menuBar = new JMenuBar();
     public static int remember = 30;
-    private int delay = 5;
+    private int delay = 25;
     
     //menus
     JMenu fileMenu  = new JMenu("File");
