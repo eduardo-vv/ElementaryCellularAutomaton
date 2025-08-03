@@ -1,4 +1,4 @@
-# Cellular Automaton
+# Elementary Cellular Automaton
 
 Here you will find a simple implementation of an Elementary Cellular Automaton using Java Swing.
 
